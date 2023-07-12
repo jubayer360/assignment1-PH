@@ -224,25 +224,27 @@
 
 /* latest deal styles */
 
-.latest-deal-sections{
-  margin: 0px 150px;
+.latest-deal-sections {
+  justify-content: center;
 }
 
-.latest-deal{
-  height: 449px;
-  width: 100%;
-  margin: auto;
+.latest-deal-wrapper {
+  margin: 0px 100px;
+}
+
+.latest-deal {
   background-image: url("../assets/latest_deal.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  background-position: center;
   align-items: center;
   align-content: center;
   border-radius: 8px;
-  
 }
 
+
 .deal-contents{
-  height: 450px;
+  height: 390px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -262,7 +264,6 @@
 
 .deal-title, .deal-description, .subscription{
   text-align: center;
-  /* padding: auto; */
 }
 
 .deal-title{
@@ -282,11 +283,16 @@
   padding: 20px 35px;
   margin-right: 5px;
   align-items: center;
-  width: 45vw;
+  width: 35vw;
 }
 
 .deal-description{
-  margin-bottom: 30px;
+  margin: 16px 0px 30px;
+  color: rgba(39, 39, 39, 0.60);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
 }
 
 
